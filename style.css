@@ -1,0 +1,106 @@
+img{
+	border-radius:50%;
+	box-shadow:10px 10px 10px #ff3300;
+}
+
+#title-html{
+	max-width:2000px;
+	border:5px solid #ff6600;
+	font-style:italic;
+	font-size:2em;
+}
+
+
+.for-pictures{
+	box-shadow:2px 2px 2px yellow;
+	border-radius:80%;
+}
+
+.opacity{
+	opacity:0.9;
+}
+
+h1:hover{
+	text-shadow:5px 5px 5px green;
+}
+
+input:checked{
+	box-shadow:10px 5px 5px blue;
+}
+
+input:focus{
+	box-shadow:5px 5px 5px purple;
+}
+
+input[type="button"]:hover{
+	box-shadow:10px 5px 5px orange;
+}
+
+a[href]:link{
+	font-style:italic;
+}
+
+*{
+	background-color:yellow;
+}
+
+a, ul>li{
+	background-color:#ff9900;
+}
+
+ol+dl{
+	background-color:#ff66ff;
+}
+
+ol > li:first-child{
+	border:2px solid #ff00ff;
+}
+
+ol > li:nth-last-child(2){
+	border:2px solid #66ffff;
+}
+
+
+.flex-container{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:flex-end;
+	align-content:space-between;
+	flex-wrap:wrap;
+	align-items:flex-end;
+}
+
+.box{
+	background-color:blue;
+	width:100px;
+	height:100px;
+}
+
+
+@keyframes change-color{
+	from{background-color:salmon;}
+	to{background-color:purple;}
+}
+
+.box-animation{
+	animation-name:change-color;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes animation3{
+	0%{width:50px;height:50px;top:50px;left:50px;background-color:#00ffff}
+	20%{width:100px;height:100px;top:100px;left:100px;background-color:#ffcc00}
+	40%{width:150px;height:150px;top:150px;left:150px;background-color:#66ff33}
+	60%{width:200px;height:200px;top:200px;left:200px;background-color:#cc33ff}
+	80%{width:250px;height:250px;top:150px;left:150px;background-color:#009999}
+	100%{width:300px;height:300px;top:100px;left:100px;background-color:#ff6600}
+	
+}
+.animation3{
+	position:relative;
+	animation-name:animation3;
+	animation-duration:5s;
+	animation-delay:3s;
+	animation-iteration-count:infinite;
+}
